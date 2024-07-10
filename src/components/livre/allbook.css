@@ -1,0 +1,26 @@
+.book-grid {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px; /* Espacement en bas pour réduire l'espace entre les cartes */
+}
+
+.book-image {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}

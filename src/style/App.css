@@ -1,0 +1,28 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px 50px 50px 50px;
+  }
+  
+  /* Responsive styles for smaller screens (e.g., tablets) */
+  @media (max-width: 768px) {
+    .card {
+      width: auto; /* Make card take up most of the screen width */
+      margin: 20px auto; /* Adjust margins for smaller screens */
+    }
+  }
+  
+  /* Responsive styles for even smaller screens (e.g., phones) */
+  @media (max-width: 576px) {
+    .card {
+      width: 100%; /* Make card take up full screen width */
+      margin: 10px auto; /* Adjust margins for smaller screens */
+    }
+  }
+  
